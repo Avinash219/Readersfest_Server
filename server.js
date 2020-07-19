@@ -17,7 +17,7 @@ app.use(cors());
 
 app.use("/api/auth", authRoutes);
 
-const PORT = 3000;
+const PORT = 8000;
 app.listen(PORT, () => {
     console.log("Listening to Port 4200");
 })
